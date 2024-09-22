@@ -1,6 +1,6 @@
-import os
 from pptx import Presentation
 from dotenv import load_dotenv
+import os
 
 def extractTextFromPptx(inputFile):
     prs = Presentation(inputFile)

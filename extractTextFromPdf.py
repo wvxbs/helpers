@@ -1,6 +1,6 @@
 import pdfplumber
-import os
 from dotenv import load_dotenv
+import os
 
 def extractTextFromPdf(inputFile):
     with pdfplumber.open(inputFile) as pdf:
